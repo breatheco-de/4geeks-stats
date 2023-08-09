@@ -9,10 +9,10 @@ expected_output = [{
 }]
 
 
-def run(df, df2):
+def run(df):
     """
     It will create a full name property on the payload
     """
-    df['together'] = df['first_name'] + ' ' + df['last_name']
+    # df['together'] = df['first_name'] + ' ' + df['last_name']
 
     return df
