@@ -20,7 +20,7 @@ pipelines:
       # The order is relevant, this sources will be passed as parameters to the run() function in the same order
       - 4geeks-com-assignments
     # Ignored during local development, its the datasource to wich the pipeline data will be saved to
-    destination: 4geeks-com-assignments
+    destination: clean_user_assignments
     # Order is relevant, they will execute one on top of the other.
     transformations:
       - nothing_assignments
